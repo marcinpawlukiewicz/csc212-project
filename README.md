@@ -1,6 +1,6 @@
 # CSC 212 Final Project Sorting Algorithms
 
-### Creators: Marcin Pawlukiewicz, Jeshua Benzant, Lisandro Torres
+#### Creators: Marcin Pawlukiewicz, Jeshua Benzant, Lisandro Torres
 
 ## Sorting Algorithms Benchmark
 
