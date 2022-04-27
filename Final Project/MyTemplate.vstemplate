@@ -1,0 +1,38 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>Sorting Algorithms</Name>
+    <Description>&lt;No description available&gt;</Description>
+    <ProjectType>VC</ProjectType>
+    <ProjectSubType>
+    </ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>Sorting Algorithms</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <Icon>__TemplateIcon.ico</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="SFML_test.vcxproj" File="SFML_test.vcxproj" ReplaceParameters="true">
+      <ProjectItem ReplaceParameters="false" TargetFileName="$projectname$.vcxproj.filters">SFML_test.vcxproj.filters</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="array.cpp">array.cpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="counting_sort.cpp">counting_sort.cpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Graph.cpp">GRAPH\Graph.cpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="insertion_sort.cpp">INSERTION\insertion_sort.cpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="main.cpp">INSERTION\main.cpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Button.cpp">BUTTON\Button.cpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="merge_sort.cpp">MERGESORT\merge_sort.cpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="quick_sort.cpp">QUICKSORT\quick_sort.cpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="selection.cpp">SELECTION\selection.cpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="array.h">ARRAY\array.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Button.h">BUTTON\Button.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="counting_sort.h">COUNTINGSORT\counting_sort.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Graph.h">GRAPH\Graph.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="insertion_sort.h">INSERTION\insertion_sort.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="merge_sort.h">MERGESORT\merge_sort.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="quick_sort.h">QUICKSORT\quick_sort.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="selection.h">SELECTION\selection.h</ProjectItem>
+    </Project>
+  </TemplateContent>
+</VSTemplate>
