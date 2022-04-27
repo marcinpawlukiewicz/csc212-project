@@ -8,3 +8,13 @@
 
 
 ## Dependencies
+
+The following files are needed in order to compile the Project: arra.cpp merge_sort.cpp main.cpp count_sort.cpp quick_sort.cpp insertion.cpp main.cpp
+
+When you go to download and compile these files, before compiling, make sure all of the files are in the same directory all together. This avoids any confusion and any errors that may occur within the main.cpp.
+
+When compiling, there is a main argument after compiling the named files (ie ./main), it is an intenger greater than 0 for how big they wish for the size of the array to be. 
+
+## Results
+
+The results shown for when the file compiles is a neatly edited format in the terminal showing different algorithms benchmarked after certain data sets. Arrays will separate the data into the different types of Arrays (randomized, partially sorted, Sorted, Reverse), with all 5 algorithms showing their benchmarked times.
