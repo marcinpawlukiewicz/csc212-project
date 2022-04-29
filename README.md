@@ -9,7 +9,7 @@
 
 ## Dependencies
 
-The following files are needed in order to compile the Project: arra.cpp merge_sort.cpp main.cpp count_sort.cpp quick_sort.cpp insertion.cpp main.cpp
+The following files are needed in order to compile the Project: array.cpp merge_sort.cpp main.cpp count_sort.cpp quick_sort.cpp insertion.cpp main.cpp
 
 When you go to download and compile these files, before compiling, make sure all of the files are in the same directory all together. This avoids any confusion and any errors that may occur within the main.cpp.
 
